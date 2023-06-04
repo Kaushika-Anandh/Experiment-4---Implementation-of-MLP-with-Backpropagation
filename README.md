@@ -1,10 +1,37 @@
-# Experiment-4---Implementation-of-MLP-with-Backpropagation
+Exp.No : 04 
+&emsp;
+&emsp;
+&emsp;
+&emsp;
+&emsp;
+&emsp;
+&emsp;
+&emsp;
+&emsp;
+&emsp;
+&emsp;
+&emsp;
+&emsp;
+&emsp;
+&emsp;
+&emsp;
+&emsp;
+&emsp;
+&emsp;
+&emsp;
+&emsp;
+&emsp;
+Date : 28.04.2023
+<br>
+
+# Implementation of MLP for Multiclassification
 
 ## AIM:
 To implement a Multilayer Perceptron for Multi classification
 
 ## EQUIPMENTS REQUIRED:
 Hardware – PCs
+
 Anaconda – Python 3.7 Installation / Google Colab /Jupiter Notebook
 
 ## RELATED THEORETICAL CONCEPT:
@@ -13,38 +40,38 @@ A multilayer perceptron (MLP) is a feedforward artificial neural network that ge
 A multilayer perceptron is a neural network connecting multiple layers in a directed graph, which means that the signal path through the nodes only goes one way. Each node, apart from the input nodes, has a nonlinear activation function. An MLP uses backpropagation as a supervised learning technique.
 MLP is widely used for solving problems that require supervised learning as well as research into computational neuroscience and parallel distributed processing. Applications include speech recognition, image recognition and machine translation.
  
-MLP has the following features:
+### MLP has the following features:
 
-Ø  Adjusts the synaptic weights based on Error Correction Rule
+-  Adjusts the synaptic weights based on Error Correction Rule
 
-Ø  Adopts LMS
+-  Adopts LMS
 
-Ø  possess Backpropagation algorithm for recurrent propagation of error
+-  possess Backpropagation algorithm for recurrent propagation of error
 
-Ø  Consists of two passes
+-  Consists of two passes
 
   	(i)Feed Forward pass
-	         (ii)Backward pass
-           
-Ø  Learning process –backpropagation
+	(ii)Backward pass
+	
+-  Learning process –backpropagation
 
-Ø  Computationally efficient method
+-  Computationally efficient method
 
 ![image 10](https://user-images.githubusercontent.com/112920679/198804559-5b28cbc4-d8f4-4074-804b-2ebc82d9eb4a.jpg)
 
-3 Distinctive Characteristics of MLP:
+### 3 Distinctive Characteristics of MLP:
 
-Ø  Each neuron in network includes a non-linear activation function
+-  Each neuron in network includes a non-linear activation function
 
 ![image](https://user-images.githubusercontent.com/112920679/198814300-0e5fccdf-d3ea-4fa0-b053-98ca3a7b0800.png)
 
-Ø  Contains one or more hidden layers with hidden neurons
+-  Contains one or more hidden layers with hidden neurons
 
-Ø  Network exhibits high degree of connectivity determined by the synapses of the network
+-  Network exhibits high degree of connectivity determined by the synapses of the network
 
-3 Signals involved in MLP are:
+### Signals involved in MLP are:
 
- Functional Signal
+#### Functional Signal
 
 *input signal
 
@@ -52,7 +79,7 @@ MLP has the following features:
 
 *F(x,w) at each neuron as it passes
 
-Error Signal
+#### Error Signal
 
    *Originates at an output neuron
    
@@ -60,35 +87,40 @@ Error Signal
    
    *Involves error dependent function in one way or the other
    
-Each hidden neuron or output neuron of MLP is designed to perform two computations:
+### Each hidden neuron or output neuron of MLP is designed to perform two computations:
 
 The computation of the function signal appearing at the output of a neuron which is expressed as a continuous non-linear function of the input signal and synaptic weights associated with that neuron
 
 The computation of an estimate of the gradient vector is needed for the backward pass through the network
 
-TWO PASSES OF COMPUTATION:
+### TWO PASSES OF COMPUTATION:
 
-In the forward pass:
+#### In the forward pass:
 
 •       Synaptic weights remain unaltered
 
 •       Function signal are computed neuron by neuron
 
 •       Function signal of jth neuron is
-            ![image](https://user-images.githubusercontent.com/112920679/198814313-2426b3a2-5b8f-489e-af0a-674cc85bd89d.png)
-            ![image](https://user-images.githubusercontent.com/112920679/198814328-1a69a3cd-7e02-4829-b773-8338ac8dcd35.png)
-            ![image](https://user-images.githubusercontent.com/112920679/198814339-9c9e5c30-ac2d-4f50-910c-9732f83cabe4.png)
+
+            <img src= "https://user-images.githubusercontent.com/112920679/198814313-2426b3a2-5b8f-489e-af0a-674cc85bd89d.png" width="50" height="20">
+	    
+            <img src= "https://user-images.githubusercontent.com/112920679/198814328-1a69a3cd-7e02-4829-b773-8338ac8dcd35.png" width="550" height="50">
+	    
+            <img src= "https://user-images.githubusercontent.com/112920679/198814339-9c9e5c30-ac2d-4f50-910c-9732f83cabe4.png">
 
 
 
 If jth neuron is output neuron, the m=mL  and output of j th neuron is
+
                ![image](https://user-images.githubusercontent.com/112920679/198814349-a6aee083-d476-41c4-b662-8968b5fc9880.png)
 
 Forward phase begins with in the first hidden layer and end by computing ej(n) in the output layer
+
 ![image](https://user-images.githubusercontent.com/112920679/198814353-276eadb5-116e-4941-b04e-e96befae02ed.png)
 
 
-In the backward pass,
+#### In the backward pass,
 
 •       It starts from the output layer by passing error signal towards leftward layer neurons to compute local gradient recursively in each neuron
 
@@ -118,10 +150,6 @@ Normalize our dataset.
 8. Finally, call the functions confusion_matrix(), and the classification_report() in order to evaluate the performance of our classifier.
 
 ## PROGRAM 
-```python
-#program by : Kaushika A
-#register no : 212221230048
-```
 ```python
 #importing libraries
 import pandas as pd
