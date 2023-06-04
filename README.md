@@ -103,7 +103,7 @@ The computation of an estimate of the gradient vector is needed for the backward
 
 •       Function signal of jth neuron is
 
-<img src= "https://user-images.githubusercontent.com/112920679/198814313-2426b3a2-5b8f-489e-af0a-674cc85bd89d.png" width="250" height="220">
+<img src= "https://user-images.githubusercontent.com/112920679/198814313-2426b3a2-5b8f-489e-af0a-674cc85bd89d.png" width="80" height="40">
 
 <img src= "https://user-images.githubusercontent.com/112920679/198814328-1a69a3cd-7e02-4829-b773-8338ac8dcd35.png" width="550" height="150">
 
@@ -113,7 +113,7 @@ The computation of an estimate of the gradient vector is needed for the backward
 
 If jth neuron is output neuron, the m=mL  and output of j th neuron is
 
-               ![image](https://user-images.githubusercontent.com/112920679/198814349-a6aee083-d476-41c4-b662-8968b5fc9880.png)
+![image](https://user-images.githubusercontent.com/112920679/198814349-a6aee083-d476-41c4-b662-8968b5fc9880.png)
 
 Forward phase begins with in the first hidden layer and end by computing ej(n) in the output layer
 
