@@ -103,11 +103,11 @@ The computation of an estimate of the gradient vector is needed for the backward
 
 •       Function signal of jth neuron is
 
-            <img src= "https://user-images.githubusercontent.com/112920679/198814313-2426b3a2-5b8f-489e-af0a-674cc85bd89d.png" width="50" height="20">
-	    
-            <img src= "https://user-images.githubusercontent.com/112920679/198814328-1a69a3cd-7e02-4829-b773-8338ac8dcd35.png" width="550" height="50">
-	    
-            <img src= "https://user-images.githubusercontent.com/112920679/198814339-9c9e5c30-ac2d-4f50-910c-9732f83cabe4.png">
+<img src= "https://user-images.githubusercontent.com/112920679/198814313-2426b3a2-5b8f-489e-af0a-674cc85bd89d.png" width="50" height="20">
+
+<img src= "https://user-images.githubusercontent.com/112920679/198814328-1a69a3cd-7e02-4829-b773-8338ac8dcd35.png" width="550" height="50">
+
+<img src= "https://user-images.githubusercontent.com/112920679/198814339-9c9e5c30-ac2d-4f50-910c-9732f83cabe4.png">
 
 
 
